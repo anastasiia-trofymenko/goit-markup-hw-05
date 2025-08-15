@@ -467,11 +467,10 @@ img {
   color: #fff;
 }
 
-.subscribe-form {
+.subscribe-form .form-label {
   display: flex;
-  gap: 24px;
   align-items: center;
-  justify-content: center;
+  gap: 24px;
 }
 
 .subscribe-form .form-input {
@@ -482,6 +481,7 @@ img {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: transparent;
   padding: 8px 16px;
+  margin-bottom: 0;
 
   font-weight: 400;
   font-size: 12px;
@@ -508,10 +508,10 @@ img {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 
   display: flex;
-  gap: 16px;
   justify-content: center;
   align-items: center;
 
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -531,6 +531,7 @@ img {
 
 .subscribe-icon {
   fill: #fff;
+  margin-left: 16px;
 }
 
 .backdrop {
