@@ -467,7 +467,7 @@ img {
   color: #fff;
 }
 
-.subscribe-form .form-label {
+.subscribe-form {
   display: flex;
   align-items: center;
   gap: 24px;
