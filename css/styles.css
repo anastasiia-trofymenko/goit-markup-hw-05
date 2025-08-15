@@ -467,11 +467,11 @@ img {
   color: #fff;
 }
 
-.subscribe-form .input-wrapper {
+.subscribe-form {
   display: flex;
+  gap: 24px;
   align-items: center;
   justify-content: center;
-  gap: 24px;
 }
 
 .subscribe-form .form-input {
@@ -502,7 +502,7 @@ img {
 .subscribe-btn {
   border-radius: 4px;
   padding: 8px 24px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   border: none;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
